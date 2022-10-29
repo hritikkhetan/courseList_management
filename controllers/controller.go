@@ -24,7 +24,7 @@ func init() {
 
 // serve home route
 func ServeHome(w http.ResponseWriter, req *http.Request) {
-	w.Write([]byte("<h1>Welcome to the ReadBooks Library</h1>"))
+	w.Write([]byte("<h1>Welcome to the Course Home Page</h1>"))
 }
 
 func GetAllCourses(w http.ResponseWriter, req *http.Request) {
